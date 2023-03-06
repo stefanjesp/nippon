@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+  --white: #FFFFFF;
+  --black: #0d0d0d;
+  --lightgrey: #dbe2e6;
+  --brown: #470506;
+  --lightblue: #D4DCF2;
+  --lightred: #e6dbdf;
+  --lightgreen: #12CDD4;
+  --darkgreen: #4EBDC1;
+  --darkergreen: #12676A;
+
+
+
+  overflow-x: hidden;
+  font-family: Ubuntu;
+}
+
+
+a {
+  color: var(--white);
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#headline {
+  background-color: var(--lightgreen);
+}
+
+.heading {
+  font-family: Fredoka One;
+  text-align: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: var(--white);
+}
+
+.subheading {
+  font-family: Fredoka One;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  *position: absolute;
+  position: sticky;
+  top: 0;
+  height: 60px;
+  background-color: var(--darkgreen);
+  margin-top: 20px;
+  z-index: 98;
+ 
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+nav {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  *padding: 10px 12px 0 12px;
+  
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  *padding-right: 10px;
+  *padding-left: 10px;
+  *padding-top: 10px;
+}
+
+nav li span {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: var(--white);
+}
+
+li a {
+
+  *padding: 5px;
+  text-decoration: none;
+  
+  
+}
+
+.logo {
+  height: 80px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+
+}
+
+.cart {    
+  display: flex;
+  position: relative;
+  top: 20px;
+  text-align: center;
+
+  right: 5px;
+  width: 60px;
+  height: 30px;
+  
+}
+
+.carticon {
+  color: var(--white);
+  position: relative;
+  
+  z-index: 99;
+ 
+}
+
+/* Front page */
+
+#fpheading {
+  margin-top: 15px;
+}
+
+#fpsubheading {
+  margin-bottom: 25px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#fpcardbox {
+  *background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 50px
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 234px;
+  border-radius: 0 0px 15px 15px;
+}
+
+
+
+
+
+#heroimage {
+  margin: 15px;
+
+}
+
+#infobox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1140px;
+  background-color: var(--lightgreen);
+  color: var(--white);
+}
+
+.line {
+  margin: 0 30px 10px 30px;
+  background-color: var(--white);
+  height: 2px;
+
+}
+
+#altline {
+  background-color: var(--lightgreen);
+}
+
+.bowl {
+  width: 50%;
+  justify-content: center;
+}
+
+.obtext {
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: Ubuntu;
+  width: 60%;
+}
+
+.go {
+  width: 40px;
+  position: relative;
+  bottom: 60px;
+  margin-inline: auto;
+
+
+}
+
+.go2 {
+
+  position: relative;
+  bottom: 67px;
+
+
+  align-self: center;
+
+}
+
+/*Cards*/
+
+#cardmain {
+  width: 100vw;
+  background-image: url(/img/cardwaves.png);
+  background-repeat: no-repeat;
+}
+
+.add-to-cart {
+  max-width: 80vw;
+  
+  
+}
+
+.container  {
+    display: flex;    
+    max-width: 90%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+    
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 40px;
+}
+
+
+.cardimage {
+  width: 70vw;
+}
+
+#kurv {
+  width: 100vw;
+}
+
+
+
+
+/***************/
+
+
+
+
+
+h2 {
+  font-size: 25px;
+  padding-bottom: 25px;
+  line-height: 0;
+  color: #09A7BA;
+  font-weight: 300;
+  padding: 20px;
+  padding-top: 40px;
+  font-family: Ubuntu;
+}
+
+
+.usertitle {
+  font-size: 20px;
+  padding-bottom: 25px;
+  line-height: 0;
+  color: #09A7BA;
+  font-weight: 300;
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.cartimage {
+  width: 100%;
+  display: flex;
+}
+
+button {
+  font-weight: 300;
+  margin: 20px 0;
+  line-height: 2.5rem;
+  font-size: 1.7rem;
+  width: 2.5rem;
+  background-color: #7A7B7B;
+  border: none;
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+
+/*Info side*/
+
+
+.adressemain {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  max-width: 100vw;
+  background-image: url(/img/infobg.svg);
+  background-size: contain;
+  background-repeat: repeat-x;
+  min-height: 800px;  
+}
+
+#infobg {
+  width: 100vw;
+  position: relative;
+  display: block;
+  top: -10px;  
+}
+
+#adrbox {
+  width: 80%;
+  height: fit-content;
+  justify-content: flex-end;
+  align-self: center;
+  font-family: Ubuntu; 
+  *position: relative;
+  *bottom: 0;
+}
+
+.input{
+  height: 30px;
+  width: 263px;
+  border-radius: 6px;
+  border-color: #12CDD4;
+  padding-left: 10px;
+  margin: 15px;
+}
+
+#submit {
+  width: 170px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #09A7BA;
+  color: var(--white);
+  font-family: Ubuntu;
+  font-size: 1rem;
+  border: solid;
+}
+
+
+#inputshop,
+#inputname,
+#inputtel,
+#inputemail {
+  line-height: 2rem;
+  font-size: 1.2rem;
+  padding: 0 10px;
+  border-top: none;
+  border-bottom: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  color: #616161;
+  text-align: center;
+}
+
+#inputshop:focus,
+#inputname:focus,
+#inputtel:focus,
+#inputemail:focus {
+  border-bottom: 1px solid #8888AC;
+  outline-width: 0;
+}
+
+#inputtel {
+  margin-bottom: 30px;
+}
+
+placeholder {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+#contactform {
+  left: 42%;
+  top: 15%;
+  position: absolute;
+  background-color: #fff;
+  width: 306px;
+  line-height: 3em;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(141, 141, 141, 0.5);
+  border-radius: 5px;
+}
+
+#contactform p {
+  color: #838383;
+}
+
+.items {
+  cursor: pointer;
+}
+
+#contactform form {
+  padding: 10px;
+}
+
+/*Cart*/
+
+#cartheading {
+  margin-top: 15px;
+  text-align: center;
+  color: var(--darkergreen);
+  font-family: Ubuntu;
+  font-size: 2rem;
+}
+.products-container {
+  max-width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+
+
+.product-header {
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid var(--darkergreen);
+  margin: 0 auto;
+}
+
+.product-title {
+  width: 45%;
+  
+}
+
+.price {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.quantity {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.total {
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  border-bottom: var(--darkergreen) solid 4px;
+}
+
+.productBox {
+  display: flex;
+  flex-direction: column;
+  width: 234px;
+  height: 300px;
+}
+
+.quantityPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: fit-content;
+  width: 100%;
+  padding-top: 2px;
+  padding-right: 10px;
+}
+
+
+
+.cartQuantity {
+  padding-right: 30px;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  border-bottom: var(--darkergreen) solid 2px;
+  *flex-wrap: wrap;
+  height: fit-content;
+  width: 100vw;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.cartimage {
+  width: 100%;
+  display: flex;
+  
+}
+
+
+.productBox {
+  width: 100%;
+}
+
+.cartTotalContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px 0;
+}
+
+.cartTotalTitle {
+  width: 30%;
+}
+
+
+#paybutton {
+  margin: 0 auto;
+}
+
+.buttonbox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+#pay {
+  max-width: 100vw;
+}
+
+#paybox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 105px;
+}
+
+#confirmbutton {
+  width: 234px;
+  height: 50px;
+  border-radius: 40px;  
+}
+
+#gfooter {
+  width: 100vw;
+}
+
+/*  Kvittering  */
+
+#kvittering {
+  max-width: 100vw;
+}
+
+#kvitbox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 185px;
+}
+
+#backtofp {
+  width: 266px;
+  height: 50px;
+  border-radius: 40px;  
+}
