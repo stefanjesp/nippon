@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54.667" height="44.667" viewBox="0 0 54.667 44.667">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        filter: url(#Vector-3);
+      }
+
+      .cls-4 {
+        filter: url(#Vector-2);
+      }
+
+      .cls-5 {
+        filter: url(#Vector);
+      }
+    </style>
+    <filter id="Vector" x="26.117" y="15.217" width="28.55" height="29.45" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Vector-2" x="6.667" y="0" width="31.333" height="31.333" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Vector-3" x="0" y="0" width="48" height="44.667" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_6_4" data-name="Component 6 – 4" transform="translate(9 6)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, -9, -6)">
+      <path id="Vector-4" data-name="Vector" class="cls-1" d="M10.55,6.45V9.783A1.672,1.672,0,0,1,8.883,11.45h-5v-5c0-2.8-1.6-4.9-3.883-6.45C4.6.667,10.55,2.817,10.55,6.45Z" transform="translate(35.12 21.22)"/>
+    </g>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, -9, -6)">
+      <path id="Vector-5" data-name="Vector" class="cls-2" d="M13.333,6.667A6.667,6.667,0,1,1,6.667,0,6.667,6.667,0,0,1,13.333,6.667Z" transform="translate(15.67 6)"/>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -9, -6)">
+      <path id="Vector-6" data-name="Vector" class="cls-1" d="M21.117,12.933A9.967,9.967,0,0,0,21.117.4,6.964,6.964,0,0,1,23.333,0a6.667,6.667,0,1,1,0,13.333,6.964,6.964,0,0,1-2.217-.4Zm5.55,8.733V25A1.672,1.672,0,0,1,25,26.667H1.667A1.672,1.672,0,0,1,0,25V21.667C0,17.233,8.883,15,13.333,15s13.333,2.233,13.333,6.667Z" transform="translate(9 6)"/>
+    </g>
+  </g>
+</svg>

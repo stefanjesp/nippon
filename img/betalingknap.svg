@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="171.181" height="45" viewBox="0 0 171.181 45">
+  <g id="betalingknap" transform="translate(-125 -764.175)">
+    <path id="Rectangle_85" data-name="Rectangle 85" d="M16.048,0H155.133C164,0,171.181,10.074,171.181,22.5S164,45,155.133,45H16.048C7.185,45,0,34.926,0,22.5S7.185,0,16.048,0Z" transform="translate(125 764.175)" fill="#14969b"/>
+    <text id="Forsæt_til_Betalingsmåde" data-name="Forsæt til Betalingsmåde" transform="translate(150.5 778.175)" fill="#fff" font-size="15" font-family="Ubuntu-Regular, Ubuntu"><tspan x="0" y="14" xml:space="preserve">Forsæt til betaling  </tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="52" viewBox="0 0 51 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        filter: url(#Vector);
+      }
+    </style>
+    <filter id="Vector" x="0" y="0" width="51" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="Vector-2" data-name="Vector" class="cls-1" d="M33,17c0,9.35-7.425,17-16.5,17S0,26.35,0,17,7.425,0,16.5,0,33,7.65,33,17Zm-8.25,4.93-7.425-4.59V8.5H14.85V18.7l8.58,5.44Z" transform="translate(9 6)"/>
+  </g>
+</svg>
